@@ -1,5 +1,5 @@
 # titanic-ML
-This is my solution to the Kaggle competition titled "Titanic - Machine Learning from Disaster"
+This is my solution to the Kaggle competition "Titanic - Machine Learning from Disaster"
 
 The challenge, is as follows:
 
