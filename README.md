@@ -32,7 +32,7 @@ To use these files to perform your own predictions:
 1. Download the data and the other files
 2. Place all the files in the same directory
 3. (Optional) Open the notebook in colab
-4. Download/import all the dependencies os, math, time, random, datetime, numpy, pandas, seaborn, matplotlib.pyplot, missingno, (OneHotEncoder, LabelEncoder, label_binarize) from sklearn.preprocessing, train_test_split from sklearn.model_selection, (model_selection, tree, preprocessing, metrics, linear_model) from sklearn, KNeighborsClassifier from sklearn.neighbors, GaussianNB from sklearn.naive_bayes, (LinearRegression, LogisticRegression, SGDClassifier) from sklearn.linear_model, DecisionTreeClassifier from sklearn.tree 
+4. Download/import all the dependencies: os, math, time, random, datetime, numpy, pandas, seaborn, matplotlib.pyplot, missingno, (OneHotEncoder, LabelEncoder, label_binarize) from sklearn.preprocessing, train_test_split from sklearn.model_selection, (model_selection, tree, preprocessing, metrics, linear_model) from sklearn, KNeighborsClassifier from sklearn.neighbors, GaussianNB from sklearn.naive_bayes, (LinearRegression, LogisticRegression, SGDClassifier) from sklearn.linear_model, DecisionTreeClassifier from sklearn.tree 
 5. Run the code and make any adjustments to the models necessary
 
 Thank you to Daniel Bourke for helping me learn and work my way through this competition, you can check out his work here: https://www.mrdbourke.com/. 
