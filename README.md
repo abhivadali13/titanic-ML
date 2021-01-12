@@ -1,7 +1,7 @@
 # titanic-ML
 This is my solution to the Kaggle competition titled "Titanic - Machine Learning from Disaster"
 
-The challenge, as listed on the Kaggle website, is as follows:
+The challenge, is as follows:
 
 The sinking of the Titanic is one of the most infamous shipwrecks in history.
 
@@ -13,7 +13,7 @@ In this challenge, we ask you to build a predictive model that answers the quest
 
 The data for this challenge is split into a training set and a test set, along with an example submission. The training and test set contain the following features:
 
-- survival, which indicates whether a passenger survived or not, and has values:	0 = No and a 1 = Yes
+- survival, which indicates whether a passenger survived or not, and has values:	0 = No and a 1 = Yes (this is the class label)
 - pclass, which indicates which class a passenger is sitting in, and has values:	1 = 1st, 2 = 2nd, 3 = 3rd
 - sex, which indicates which Sex a passenger is
 - age, which indicates a passenger's age in years
@@ -23,3 +23,16 @@ The data for this challenge is split into a training set and a test set, along w
 - fare, which indicates the amount of money (fare) a passenger paid
 - cabin, which indicates the Cabin number the passenger is staying in
 - embarked, which indicates the	Port of Embarkation the passenger took off from, and has values:	C = Cherbourg, Q = Queenstown, S = Southampton
+
+In this notebook, we perform exploratory data analysis, preprocess the training data, visualize all the features, and contextualize each feature's relationship with the class label (survival). Then, we train and run Logistic regression, K-nearest neighbors, Gaussian naive bayes, and Decision tree classifiers and assess their accuracy on the training dataset. After determining that the Logistic regression model is the most accurate, we preprocess the test data, and make predictions on the test data with this model, and submit the final predictions. 
+
+Kaggle gave this submission a score of 0.76555. 
+
+To use these files to perform your own predictions:
+1. Download the data and the other files
+2. Place all the files in the same directory
+3. (Optional) Open the notebook in colab
+4. Download/import all the dependencies os, math, time, random, datetime, numpy, pandas, seaborn, matplotlib.pyplot, missingno, (OneHotEncoder, LabelEncoder, label_binarize) from sklearn.preprocessing, train_test_split from sklearn.model_selection, (model_selection, tree, preprocessing, metrics, linear_model) from sklearn, KNeighborsClassifier from sklearn.neighbors, GaussianNB from sklearn.naive_bayes, (LinearRegression, LogisticRegression, SGDClassifier) from sklearn.linear_model, DecisionTreeClassifier from sklearn.tree 
+5. Run the code and make any adjustments to the models necessary
+
+Thank you to Daniel Bourke for helping me learn and work my way through this competition, you can check out his work here: https://www.mrdbourke.com/. 
